@@ -1,6 +1,6 @@
 header {
     z-index: 999;
-    padding: 40px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,13 +38,15 @@ header {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
                 rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
-    transition: all .8s ease-in-out;
+    transition: transform .5s ease-in;
 }
 
 .menu.active {
     right: 0;
-    top: 110px; left: 155%;
+    left: 0;
+    top: 110px;
     margin: auto;
+    transform: translateX(0);
 }
 
 .btnMenu.active {
