@@ -1,0 +1,15 @@
+header::after { 
+    content: '';
+    position: absolute;
+    right: 0; top: 0;
+    width: 50%; height: 57vh;
+    background-color: var(--light-grayish-blue);
+    border-bottom-left-radius: 5rem;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 768px) {
+    header::after {
+        width: 46%; height: 50vh;
+    }
+}

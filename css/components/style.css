@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --dark-blue: hsl(230, 29%, 20%);
+    --dark-grayish-blue: hsl(230, 11%, 40%);
+    --grayish-blue: hsla(235, 7%, 65%, 0.637);
+    --light-grayish-blue: hsl(207, 33%, 95%);
+    --red: hsl(0, 100%, 68%);
+
+    --font-body: 'Barlow', sans-serif;
+    --font: 'Barlow Condensed', sans-serif;
+}
