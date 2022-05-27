@@ -1,5 +1,5 @@
 header {
-    z-index: 999;
+    z-index: 1;
     padding: 30px;
     display: flex;
     align-items: center;
@@ -24,8 +24,10 @@ header {
 
 .menu {
     position: absolute;
-    top: 110px;
-    transform: translateX(-200%);
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translatey(-300%);
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -44,9 +46,9 @@ header {
 .menu.active {
     right: 0;
     left: 0;
-    top: 110px;
+    top: 100px;
     margin: auto;
-    transform: translateX(0);
+    transform: translatey(0);
 }
 
 .btnMenu.active {
