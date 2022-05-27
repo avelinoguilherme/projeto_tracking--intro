@@ -57,7 +57,7 @@ p {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
     font-size: 1.3rem;
-    width: 85%;
+    width: 80%;
 
     padding-bottom: 12px;
     line-height: 1.5;
@@ -75,7 +75,7 @@ p {
 .btnRed {
     border: 1px solid rgba(145, 143, 143, 0.11);
     background-color: rgba(255, 0, 0, 0.548);
-    padding: .6rem .9rem;
+    padding: 1rem 1rem;
     border-radius: 10px;
     color: #fdfdfd;
     text-transform: uppercase;
@@ -97,7 +97,7 @@ p {
     font-family: 'Barlow Condensed',sans-serif;
     font-size: .9rem;
     letter-spacing: .09rem;
-    padding: .6rem .9rem;
+    padding: 1rem 1rem;
 
     cursor: pointer;
 }
@@ -137,8 +137,23 @@ p {
 
     p {
         margin-bottom: 2.75rem;
+        font-size: 1.5rem;
+        width: 60%;   
     }
 
+    .btns {
+        justify-content: left;
+        align-items: center;
+        
+    }
 
+    .btnTransparent {
+        letter-spacing: .2rem;
+    }
+
+    .btnRed {
+        font-size: .9rem;
+        margin-right: 3rem;
+    }
 
 }
