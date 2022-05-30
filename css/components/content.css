@@ -46,7 +46,7 @@ h1 {
     text-transform: uppercase;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 800;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: (--dark-blue);
 
     padding-bottom: 5px;
@@ -131,14 +131,14 @@ p {
     }
 
     h1 {
-        font-size: 3.5rem;
+        font-size: 3.1rem;
         margin-bottom: 1rem;
     }
 
     p {
         margin-bottom: 2.75rem;
         font-size: 1.5rem;
-        width: 60%;   
+        width: 80%;   
     }
 
     .btns {
@@ -153,7 +153,7 @@ p {
 
     .btnRed {
         font-size: .9rem;
-        margin-right: 3rem;
+        margin-right: 2rem;
     }
 
 }
